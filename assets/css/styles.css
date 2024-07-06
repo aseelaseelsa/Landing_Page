@@ -646,6 +646,9 @@ section.active {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
+  p{
+    text-align: center;
+  }
 }
 
 /* media querie for location */
