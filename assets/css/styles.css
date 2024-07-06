@@ -1,0 +1,692 @@
+/*font-family: 'Roboto', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* font-family: "Dosis", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
+/* font-family: "Montserrat", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* font-family: "Arimo", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h5 {
+  color: red;
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 50px;
+}
+h1 {
+  color: rgb(33, 49, 95);
+  font-family: "Montserrat", sans-serif;
+  font-size: 61px;
+  font-weight: 900;
+  line-height: 61px;
+  padding: 0;
+  margin: 0;
+}
+/* =============================== start navbar style===============================  */
+header {
+  /* rgb(9, 198, 198) */
+  background-color: rgb(9, 198, 198);
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  padding: 10px 0;
+}
+header .container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+header .navbar-section {
+  display: flex;
+  flex-direction: row;
+}
+.nav-logo {
+  margin: auto;
+}
+.navbar-section img {
+  width: 100px;
+  height: 40px;
+}
+.nav-list {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-grow: 1;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  color: gold;
+}
+
+/* =============================== end navbar style===============================  */
+
+/* =============================== start home sections style===============================  */
+
+main {
+  padding-top: 30px;
+}
+section .container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+section {
+  background-color: #f9f9f9;
+  text-align: center;
+}
+#section1 {
+  margin-bottom: 10%;
+padding-top: 30px;
+}
+.home-header {
+  display: flex;
+  padding: 50px 0px;
+}
+.home-desc {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  justify-content: center;
+  align-items: start;
+}
+
+.home-desc h1 {
+  line-height: 80px;
+  font-weight: 900;
+  font-size: 87px;
+}
+.home-desc h5 {
+  color: rgb(209, 73, 73);
+  line-height: 0px;
+}
+.head {
+  text-align: start;
+}
+
+.learn p {
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.home-img {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 3;
+}
+
+.imageHome {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-under-banner {
+  display: flex;
+
+  border-radius: 10px;
+  border: 1px solid rgb(9, 198, 198);
+}
+
+.join-section {
+  flex: 1;
+
+  padding: 30px 5px;
+  text-align: center;
+  border-left: 1px rgb(9, 198, 198) dashed;
+  border-right: 1px rgb(9, 198, 198) dashed;
+  background-color: rgba(206, 206, 206, 0.423);
+}
+.join-section h1 {
+  color: rgb(31, 47, 101);
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  font-weight: 900;
+  margin: 0;
+}
+.join-section p {
+  text-align: center;
+  color: #333;
+  padding-top: 30px;
+}
+.join-section h5 {
+  line-height: 20px;
+}
+
+.price {
+  background-color: rgb(9, 198, 198);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-right: none;
+}
+
+.date {
+  border-left: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* =============================== end home section style===============================  */
+
+/* =============================== start about sections style===============================  */
+
+#section2,
+#section5 {
+  padding: 40px 0px;
+  text-align: center;
+}
+.about-wapper {
+  display: flex;
+  gap: 45px;
+  padding: 40px 0px;
+}
+.about-left-div {
+  background-color: rgb(9, 198, 198);
+  padding: 21px 29px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: start;
+  border: 1px solid rgb(9, 198, 198);
+  border-radius: 10px;
+}
+.about-left-div h1 {
+  color: rgb(31, 47, 101);
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  font-weight: 900;
+  margin: 0;
+}
+
+h6 {
+  color: white;
+  font-family: "Arimo", sans-serif;
+  font-size: 22px;
+}
+
+p {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: start;
+}
+
+.level {
+  padding-top: 10px;
+}
+
+.right-p {
+  padding-right: 50px;
+}
+
+.about-right-div {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+  gap: 16px;
+  align-items: start;
+  flex-grow: 1;
+}
+.right-desc {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.about-right-div h1 {
+  font-size: 40px;
+}
+.right-desc p {
+  line-height: 32px;
+}
+.register-btn button {
+  background-color: rgb(209, 73, 73);
+  padding: 11px 40px;
+  border: 1px solid rgb(209, 73, 73);
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: white;
+  font-family: "Dosis", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.register-btn button:hover {
+  background-color: rgb(209, 73, 73);
+  transition: 0.6s;
+  transform: translateY(-5px);
+}
+
+/* =============================== end about sections style===============================  */
+/* =============================== start tutors sections style===============================  */
+
+.tutors-wrapper {
+  padding: 44px 0px;
+}
+.tutors_header {
+  padding: 25px;
+}
+.tutors-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.main-tutors {
+  display: flex;
+  flex-direction: row;
+}
+.sub-tutors1,
+.sub-tutors2 {
+  display: flex;
+}
+.tutor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.tutors-description h1 {
+  text-align: center;
+  font-size: 55px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+.tutors-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tutors-desc h6 {
+  color: rgb(9, 198, 198);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  padding-top: 10px;
+}
+.tutors-desc .been_working p {
+  text-align: center;
+  padding: 20px 25px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgba(67, 66, 66, 0.878);
+  font-family: "Roboto", sans-serif;
+}
+
+.tutors-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid rgb(99, 119, 179);
+  box-shadow: 0px 0px 6px 0px rgb(114, 211, 211);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tutor-imge {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+}
+/* =============================== end tutors section tyle===============================  */
+
+/* =============================== start  location sectionstyle===============================  */
+.location-wrapper {
+  padding: 40px 0px;
+}
+.location-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, auto);
+  padding: 20px 0px;
+}
+.location-banner {
+  padding: 0px 61px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.img_location {
+  height: 100%;
+  width: 100%;
+}
+
+.location-banner .description {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  color: rgb(31, 47, 101);
+}
+.location-banner .description p {
+  line-height: 25px;
+}
+.location-description h1 {
+  color: rgb(31, 47, 101);
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  font-weight: 900;
+  text-transform: capitalize;
+  text-align: start;
+}
+.time {
+  margin-top: 50px;
+  color: rgb(209, 73, 73);
+  font-size: 20px;
+  line-height: 20px;
+}
+/* =============================== end location section tyle===============================  */
+
+/* =============================== start register section tyle===============================  */
+
+.register-wrapper {
+  background-image: url("../img/signup.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+.register-wrapper h1 {
+  color: rgb(31, 47, 101);
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.register-wrapper h4 {
+  color: red;
+  font-family: "Dosis", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 32px;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 500px;
+  padding: 50px 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-top: 20px;
+}
+
+.form-banner {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.required {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: red;
+  font-size: 1.2em;
+}
+/* =============================== end register section tyle===============================  */
+
+/* =============================== start footer section tyle===============================  */
+
+footer {
+  background-color: whitesmoke;
+}
+.footer-wapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+}
+.sub-footer1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub-footer1 h4 {
+  color: rgb(40, 40, 40);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.social-media-icon ul {
+  display: flex;
+  gap: 12px;
+  list-style-type: none;
+}
+.social-media-icon ul li {
+  padding: 6px 9px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.social-media-icon ul li a {
+  margin: auto;
+}
+.facebook {
+  border: 1px solid #3b5999;
+}
+.facebook-link {
+  color: #3b5999;
+}
+.linkedin {
+  border: 1px solid #0077b5;
+}
+.linkedin-link {
+  color: #0077b5;
+}
+.twitter {
+  border: 1px solid #1769ff;
+}
+.twitter-link {
+  color: #1769ff;
+}
+.instagram {
+  border: 1px solid #ff724c;
+}
+.instagram-link {
+  color: #ff724c;
+}
+.github {
+  border: 1px solid rgb(59, 59, 59);
+}
+.github-link {
+  color: rgb(59, 59, 59);
+}
+
+/* =============================== end footer section tyle===============================  */
+
+section h2 {
+  margin-top: 0;
+}
+
+section.active {
+  border-color: #333;
+  background-color: rgb(233, 232, 232);
+}
+.active-link {
+  color: gold;
+  font-weight: bold;
+}
+
+/* media querie for navbar*/
+@media screen and (max-width: 425px) {
+  .navbar-section img {
+    width: 50px;
+    height: 25px;
+  }
+  nav ul li a {
+    font-size: 12px;
+  }
+
+  .home-desc h5 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  header .container {
+    max-width: 98%;
+  }
+  header .navbar-section {
+    flex-direction: column;
+  }
+  .nav-list {
+    justify-content: center;
+  }
+}
+  /* media querie for about  */
+
+@media screen and (max-width: 767px) {
+  .about-wapper {
+    flex-direction: column;
+  }
+  .about-left-div {
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+  /* media querie for tutors  */
+@media screen and (max-width: 960px) {
+  /* media querie for services */
+  .main-tutors {
+    display: flex;
+    flex-direction: column;
+  }
+  /* media querie for register */
+  .register-wrapper {
+    background-image: none;
+  }
+}
+@media screen and (max-width: 568px) {
+  /* media querie for service section */
+  .sub-tutors1,
+  .sub-tutors2 {
+    display: block;
+  }
+  /* media querie for footer section */
+  .footer-wapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  /* media querie for home section */
+
+  .home-under-banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .join-section {
+    border-top: 1px rgb(9, 198, 198) dashed;
+    border-bottom: 1px rgb(9, 198, 198) dashed;
+  }
+  .price {
+    background-color: rgb(9, 198, 198);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-right: none;
+  }
+
+  .date {
+    border-left: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+}
+
+/* media querie for location */
+@media screen and (max-width: 930px) {
+  .location-row {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, auto);
+  }
+  .location-banner {
+    padding: 30px 5px;
+  }
+
+  .location-description h5 {
+    padding: 0px 0px;
+  }
+  .img_location {
+    height: auto;
+    width: 100%;
+  }
+  .home-desc h1 {
+    line-height: 60px;
+    font-size: 60px;
+  }
+}
+/* media querie for Home */
+@media screen and (max-width: 986px) {
+  .home-desc {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-img {
+    display: none;
+  }
+
+  .head {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 811px) {
+  .join-section h1 {
+    font-size: 35px;
+  }
+}
